@@ -1,0 +1,564 @@
+<div id="head-subtitle">
+  <div class="container-fluid">
+    <div class="head">
+      <h2>Toma de pedidos</h2>
+    </div>
+  </div>
+</div>
+<div class="head">
+  <div class="container-fluid text-center">
+    <div class="row">
+      <div class="col-2"><a class="float-left" routerLink="/clientes" routerLinkActive="active"><i class="fas fa-arrow-left"></i></a></div>
+      <div class="col-8 id-cliente">
+        <p>458565</p>
+        <p>Alcimar Farm E.I.R.L. / BOTICA ALCIMARS</p>
+      </div>
+      <div class="col-2">
+        <div class="icons-product float-right">
+          <button class="modal-detail" type="button" data-toggle="modal" data-target="#day"><img src="assets/img/cambiar-client-24.svg"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="nav-pedido">
+  <button class="tablink" id="defaultOpen" onclick="openCity('datos-comerciales', this )" style="color: rgb(255, 255, 255); background-color: rgb(245, 45, 45);">DATOS COMERCIALES</button>
+  <button class="tablink" onclick="openCity('posiciones', this )">LISTA DE PEDIDO</button>
+</div>
+<div class="block-pedido">
+  <div class="tabcontent" id="datos-comerciales" style="display: block;">
+    <div class="container">
+      <div class="row">
+        <div class="back-form-detalle">
+          <form class="form">
+            <div class="form-group">
+              <select class="form-control form-group-input" id="">
+                <option value="0">Area de venta</option>
+                <option value="0">1011 / 10 / 01</option>
+                <option>1011 / 10 / 01</option>
+                <option>1011 / 10 / 01</option>
+                <option>1011 / 10 / 01</option>
+                <option>1011 / 10 / 01</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <select class="form-control form-group-input" id="">
+                <option value="0">Clase</option>
+                <option>ZP02 - Pedido de venta</option>
+                <option>ZP03 - Pedido de venta</option>
+                <option>ZP04 - Pedido de venta</option>
+                <option>ZP05 - Pedido de venta</option>
+                <option>ZP06 - Pedido de venta</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <select class="form-control form-group-input" id="">
+                <option value="0">Destinatario</option>
+                <option>423949 - AV EMANCIPACION 595, A</option>
+                <option>423949 - AV EMANCIPACION 595, A</option>
+                <option>423949 - AV EMANCIPACION 595, A</option>
+                <option>423949 - AV EMANCIPACION 595, A</option>
+                <option>423949 - AV EMANCIPACION 595, A</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <select class="form-control form-group-input" id="">
+                <option value="0">Vendedor</option>
+                <option>00013412 - CARLOS ESPINOZA</option>
+                <option>00013412 - CARLOS ESPINOZA</option>
+                <option>00013412 - CARLOS ESPINOZA</option>
+                <option>00013412 - CARLOS ESPINOZA</option>
+                <option>00013412 - CARLOS ESPINOZA</option>
+              </select>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <input class="form-group-input" type="text" required="" >
+                  <label class="form-group-label">Vend (ZR):</label>
+                  <div class="form-group-line"></div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <input class="form-group-input" type="text" required="">
+                  <label class="form-group-label">Vend (ZR):</label>
+                  <div class="form-group-line"></div>
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class="row">
+            <div class="col">
+              <div class="form-group">
+                <select class="form-control form-group-input" id="">
+                  <option value="0">Centro</option>
+                  <option>1119</option>
+                  <option>1119</option>
+                  <option>1119</option>
+                  <option>1119</option>
+                  <option>1119</option>
+                </select>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-group">
+                <input class="form-group-input" type="text" required="">
+                <label class="form-group-label">Cod. de Pago:</label>
+                <div class="form-group-line"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="form-group">
+                <select class="form-control form-group-input" id="">
+                  <option value="0">Cond. Especial</option>
+                  <option>1119</option>
+                  <option>1119</option>
+                  <option>1119</option>
+                  <option>1119</option>
+                  <option>1119</option>
+                </select>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-group">
+                <select class="form-control form-group-input" id="">
+                  <option value="0">Nivel de Pago</option>
+                  <option>1119</option>
+                  <option>1119</option>
+                  <option>1119</option>
+                  <option>1119</option>
+                  <option>1119</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <input class="form-group-input" type="text" required="">
+            <label class="form-group-label">Oc</label>
+            <div class="form-group-line"></div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="btn-border-green"><a routerLink="/productos" routerLinkActive="active" style="background-color: #63c282;">AGREGAR PRODUCTOS</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="tabcontent" id="posiciones">
+  <div class="container-fluid pd-0">
+    <!--
+    .empty-cart
+    h3 Agregar productos
+    img(src='assets/img/cruz.svg')
+    -->
+    <div class="row">
+      <div class="content-products">
+        <div class="box-product">
+          <div class="delete float-right"><a href="#"><i class="fas fa-times"></i></a></div>
+          <div class="row">
+            <div class="col">
+              <div class="name">
+                <h6>465341 - ALIPRAC PV ORAL CAJ X 06</h6>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <div class="form-group">
+                <input class="form-group-input bg-gray" type="text" required="" value="101">
+                <label class="form-group-label">Posición:</label>
+                <div class="form-group-line"></div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="form-group">
+                <input class="form-group-input bg-gray" type="text" required="" value="1">
+                <label class="form-group-label">Cantidad:</label>
+                <div class="form-group-line"></div>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="icon-edit"><a routerLink="/editar-producto/1" routerLinkActive="active"><img src="assets/img/icon-edit.svg"></a></div>
+            </div>
+            <div class="col-4 total">
+              <p>Total: S/. 149.68</p>
+            </div>
+          </div>
+        </div>
+        <div class="box-product promo">
+          <div class="delete float-right"><a href="#"><i class="fas fa-times"></i></a></div>
+          <div class="row">
+            <div class="col">
+              <div class="name">
+                <h6>465341 - ALIPRAC PV ORAL CAJ X 06</h6>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <div class="form-group">
+                <input class="form-group-input" type="text" required="" value="100">
+                <label class="form-group-label">Posición:</label>
+                <div class="form-group-line"></div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="form-group">
+                <input class="form-group-input" type="text" required="" value="1">
+                <label class="form-group-label">Cantidad:</label>
+                <div class="form-group-line"></div>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="icon-edit"><a routerLink="/editar-producto/1" routerLinkActive="active"><img src="assets/img/icon-edit.svg"></a></div>
+            </div>
+            <div class="col-4 total">
+              <p>Total: S/.00.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="box-product">
+          <div class="delete float-right"><a href="#"><i class="fas fa-times"></i></a></div>
+          <div class="row">
+            <div class="col">
+              <div class="name">
+                <h6>465341 - ALIPRAC PV ORAL CAJ X 06</h6>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <div class="form-group">
+                <input class="form-group-input bg-gray" type="text" required="" value="200">
+                <label class="form-group-label">Posición:</label>
+                <div class="form-group-line"></div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="form-group">
+                <input class="form-group-input bg-gray" type="text" required="" value="1">
+                <label class="form-group-label">Cantidad:</label>
+                <div class="form-group-line"></div>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="icon-edit"><a routerLink="/editar-producto/1" routerLinkActive="active"><img src="assets/img/icon-edit.svg"></a></div>
+            </div>
+            <div class="col-4 total">
+              <p>Total: S/. 7.49</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-posicion">
+          <div class="icon-add"><a routerLink="/productos" routerLinkActive="active"><img src="assets/img/icon-add.svg"></a></div>
+          <p>Total Neto:     S/.600.00</p>
+          <div class="btn-bottom">
+            <div class="middle-l">
+              <div class="btn-border-green">
+                <a class="btn-save" class="modal-detail" data-toggle="modal" data-target="#confirm" >
+                  <img src="assets/img/icon-confirm2.svg"> GUARDAR
+                </a>
+              </div>
+            </div>
+            <div class="middle-r">
+              <div class="btn-backgrounb-green">
+                <a routerLink="/confirmacion-pedido/1" routerLinkActive="active">
+                  <img src="assets/img/icon-guardar.svg"> CONFIRMAR
+                </a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<div class="modal fade" id="day" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <button class="close text-secondary" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      <div class="modal-header">
+        <div class="search-modal">
+          <div class="container">
+            <div class="input-group">
+              <input class="form-control" id="txtbuscar" type="text" placeholder="Buscar Cliente"><span class="input-group-btn">
+                <button class="btn btn-green" id="buscar" type="button"><i class="fas fa-search" aria-hidden="true"></i><span class="glyphicon glyphicon-search"></span></button></span>
+            </div>
+          </div>
+          <div class="customers">
+            <div class="container">
+              <div class="cust-route">
+                <h3>Clientes planificados en ruta</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div id="timeline">
+          <div>
+            <section class="day">
+              <div class="date">
+                <h3>22</h3>
+                <p>Nov</p>
+                <section>
+                  <div class="item">
+                    <div class="row">
+                      <div class="col">
+                        <div class="font-weight-bold float-left"><a routerLink="/detalles-pedido/1" routerLinkActive="active">
+                            <p>58565</p></a></div>
+                        <div class="float-right"><a routerLink="/detalles-cliente/1" routerLinkActive="active"><img src="assets/img/icon-info.png"></a></div>
+                      </div>
+                      <div class="col-12"><a routerLink="/detalles-pedido/1" routerLinkActive="active">
+                          <p>ALCIMAR FARM E.I.R.L. / Botica Alcimars</p></a></div>
+                      <div class="col-12 f-visita">
+                        <div class="float-left">
+                          <p>F.ultima visita: 10/10/18</p>
+                        </div>
+                        <div class="float-right">
+                          <p>F.ultima visita: 10/10/18</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section class="day">
+                  <section>
+                    <div class="item">
+                      <div class="row">
+                        <div class="col">
+                          <div class="font-weight-bold float-left"><a routerLink="/detalles-pedido/1" routerLinkActive="active">
+                              <p>58565</p></a></div>
+                          <div class="float-right"><a routerLink="/detalles-cliente/1" routerLinkActive="active"><img src="assets/img/icon-info.png"></a></div>
+                        </div>
+                        <div class="col-12"><a routerLink="/detalles-pedido/1" routerLinkActive="active">
+                            <p>ALCIMAR FARM E.I.R.L. / Botica Alcimars</p></a></div>
+                        <div class="col-12 f-visita">
+                          <div class="float-left">
+                            <p>F.ultima visita: 10/10/18</p>
+                          </div>
+                          <div class="float-right">
+                            <p>F.ultima visita: 10/10/18</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </section>
+                <section class="day">
+                  <section>
+                    <div class="item">
+                      <div class="row">
+                        <div class="col">
+                          <div class="font-weight-bold float-left"><a routerLink="/detalles-pedido/1" routerLinkActive="active">
+                              <p>58565</p></a></div>
+                          <div class="float-right"><a routerLink="/detalles-cliente/1" routerLinkActive="active"><img src="assets/img/icon-info.png"></a></div>
+                        </div>
+                        <div class="col-12"><a routerLink="/detalles-pedido/1" routerLinkActive="active">
+                            <p>ALCIMAR FARM E.I.R.L. / Botica Alcimars</p></a></div>
+                        <div class="col-12 f-visita">
+                          <div class="float-left">
+                            <p>F.ultima visita: 10/10/18</p>
+                          </div>
+                          <div class="float-right">
+                            <p>F.ultima visita: 10/10/18</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </section>
+                <section class="day">
+                  <section>
+                    <div class="item">
+                      <div class="row">
+                        <div class="col">
+                          <div class="font-weight-bold float-left"><a routerLink="/detalles-pedido/1" routerLinkActive="active">
+                              <p>58565</p></a></div>
+                          <div class="float-right"><a routerLink="/detalles-cliente/1" routerLinkActive="active"><img src="assets/img/icon-info.png"></a></div>
+                        </div>
+                        <div class="col-12"><a routerLink="/detalles-pedido/1" routerLinkActive="active">
+                            <p>ALCIMAR FARM E.I.R.L. / Botica Alcimars</p></a></div>
+                        <div class="col-12 f-visita">
+                          <div class="float-left">
+                            <p>F.ultima visita: 10/10/18</p>
+                          </div>
+                          <div class="float-right">
+                            <p>F.ultima visita: 10/10/18</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </section>
+                <section class="day">
+                  <section>
+                    <div class="item">
+                      <div class="row">
+                        <div class="col">
+                          <div class="font-weight-bold float-left"><a routerLink="/detalles-pedido/1" routerLinkActive="active">
+                              <p>58565</p></a></div>
+                          <div class="float-right"><a routerLink="/detalles-cliente/1" routerLinkActive="active"><img src="assets/img/icon-info.png"></a></div>
+                        </div>
+                        <div class="col-12"><a routerLink="/detalles-pedido/1" routerLinkActive="active">
+                            <p>ALCIMAR FARM E.I.R.L. / Botica Alcimars</p></a></div>
+                        <div class="col-12 f-visita">
+                          <div class="float-left">
+                            <p>F.ultima visita: 10/10/18</p>
+                          </div>
+                          <div class="float-right">
+                            <p>F.ultima visita: 10/10/18</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </section>
+                <section class="day">
+                  <section>
+                    <div class="item">
+                      <div class="row">
+                        <div class="col">
+                          <div class="font-weight-bold float-left"><a routerLink="/detalles-pedido/1" routerLinkActive="active">
+                              <p>58565</p></a></div>
+                          <div class="float-right"><a routerLink="/detalles-cliente/1" routerLinkActive="active"><img src="assets/img/icon-info.png"></a></div>
+                        </div>
+                        <div class="col-12"><a routerLink="/detalles-pedido/1" routerLinkActive="active">
+                            <p>ALCIMAR FARM E.I.R.L. / Botica Alcimars</p></a></div>
+                        <div class="col-12 f-visita">
+                          <div class="float-left">
+                            <p>F.ultima visita: 10/10/18</p>
+                          </div>
+                          <div class="float-right">
+                            <p>F.ultima visita: 10/10/18</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </section>
+                <section class="day">
+                  <section>
+                    <div class="item">
+                      <div class="row">
+                        <div class="col">
+                          <div class="font-weight-bold float-left"><a routerLink="/detalles-pedido/1" routerLinkActive="active">
+                              <p>58565</p></a></div>
+                          <div class="float-right"><a routerLink="/detalles-cliente/1" routerLinkActive="active"><img src="assets/img/icon-info.png"></a></div>
+                        </div>
+                        <div class="col-12"><a routerLink="/detalles-pedido/1" routerLinkActive="active">
+                            <p>ALCIMAR FARM E.I.R.L. / Botica Alcimars</p></a></div>
+                        <div class="col-12 f-visita">
+                          <div class="float-left">
+                            <p>F.ultima visita: 10/10/18</p>
+                          </div>
+                          <div class="float-right">
+                            <p>F.ultima visita: 10/10/18</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </section>
+                <section class="day">
+                  <section>
+                    <div class="item">
+                      <div class="row">
+                        <div class="col">
+                          <div class="font-weight-bold float-left"><a routerLink="/detalles-pedido/1" routerLinkActive="active">
+                              <p>58565</p></a></div>
+                          <div class="float-right"><a routerLink="/detalles-cliente/1" routerLinkActive="active"><img src="assets/img/icon-info.png"></a></div>
+                        </div>
+                        <div class="col-12"><a routerLink="/detalles-pedido/1" routerLinkActive="active">
+                            <p>ALCIMAR FARM E.I.R.L. / Botica Alcimars</p></a></div>
+                        <div class="col-12 f-visita">
+                          <div class="float-left">
+                            <p>F.ultima visita: 10/10/18</p>
+                          </div>
+                          <div class="float-right">
+                            <p>F.ultima visita: 10/10/18</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </section>
+                <section class="day">
+                  <section>
+                    <div class="item">
+                      <div class="row">
+                        <div class="col">
+                          <div class="font-weight-bold float-left"><a routerLink="/detalles-pedido/1" routerLinkActive="active">
+                              <p>58565</p></a></div>
+                          <div class="float-right"><a routerLink="/detalles-cliente/1" routerLinkActive="active"><img src="assets/img/icon-info.png"></a></div>
+                        </div>
+                        <div class="col-12"><a routerLink="/detalles-pedido/1" routerLinkActive="active">
+                            <p>ALCIMAR FARM E.I.R.L. / Botica Alcimars</p></a></div>
+                        <div class="col-12 f-visita">
+                          <div class="float-left">
+                            <p>F.ultima visita: 10/10/18</p>
+                          </div>
+                          <div class="float-right">
+                            <p>F.ultima visita: 10/10/18</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </section>
+                <section class="day">
+                  <section>
+                    <div class="item">
+                      <div class="row">
+                        <div class="col">
+                          <div class="font-weight-bold float-left"><a routerLink="/detalles-pedido/1" routerLinkActive="active">
+                              <p>58565</p></a></div>
+                          <div class="float-right"><a routerLink="/detalles-cliente/1" routerLinkActive="active"><img src="assets/img/icon-info.png"></a></div>
+                        </div>
+                        <div class="col-12"><a routerLink="/detalles-pedido/1" routerLinkActive="active">
+                            <p>ALCIMAR FARM E.I.R.L. / Botica Alcimars</p></a></div>
+                        <div class="col-12 f-visita">
+                          <div class="float-left">
+                            <p>F.ultima visita: 10/10/18</p>
+                          </div>
+                          <div class="float-right">
+                            <p>F.ultima visita: 10/10/18</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </section>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-guardar-pedido">
+<div class="modal fade" id="confirm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <button class="close text-secondary" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      <div class="modal-body">
+        <h5>¿Seguro que desea guardar en borrador?</h5>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Aceptar</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

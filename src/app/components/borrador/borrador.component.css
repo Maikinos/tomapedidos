@@ -1,0 +1,215 @@
+body{
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+
+/*.navbar-toggler-icon{
+    background: none !important;
+}
+
+.navBarM button.navbar-toggler{
+    border-color: white;
+}
+
+.navBarM button.navbar-toggler span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#navbarTogglerDemo03 ul li a{
+    color: white; 
+}*/
+
+.savelist li {
+    margin-bottom: 5px;
+    font-size: 17px;
+    padding: 0;
+    box-sizing: border-box;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f-tec {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    height: 100%;
+    font-style: italic;
+    max-width: 47px;
+    margin-right: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
+    width: 47px;
+    min-width: 47px;
+}
+
+.f-desc {
+    font-size: 15px;
+    color: #757575;
+    border: 1px solid;
+    padding: 3px;
+    width: 58px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.f-qua {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+    width: 280px;
+}
+
+.f-act i {
+    margin: 3px;
+    /* border: 1px solid; */
+    padding: 2px;
+    text-align: center;
+    color: #54b454;
+    margin: 5px;
+}
+
+.f-act{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+/*Acordeon*/
+#accordion{
+    margin: 0px 10px;
+}
+
+#accordion .card {
+    margin-bottom: 15px;
+}
+#accordion .card .card-header {
+    background-color: #f52d2d;
+}
+#accordion .card-header{
+    padding: 0;
+}
+
+#accordion button[data-toggle="collapse"]{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#accordion .card-body{
+    padding: 5px;
+}
+
+.back-icon{
+    padding: 0px 15px;
+    font-size: 19px;
+    color: #000000;
+    display: inline-block;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.back-icon a {
+    color: #f52d2d;
+}
+
+.back-icon i{
+    font-size: 30px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/*search*/
+
+#accordion span.fa-search{
+    float: right;
+    margin: 10px;
+    color: #ffffff;
+}
+
+#accordion input.search-client{
+    transition: all ease 250ms;
+    padding: 0;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #f1f1f1;
+    height: 100%;
+    font-size: 19px;
+    background-color: #fbfbfb;
+    outline: 0;
+    color: #0c7371;
+}
+
+#accordion input.search-client:focus{
+    border: transparent;
+    box-shadow: none;
+}
+
+.boton-flotante {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px -1px 5px 0px rgba(152, 152, 152, 0.75);
+    -moz-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 5px 0px rgba(152, 152, 152, 0.75);
+}
+
+.boton-flotante button {
+    background-color: #f52d2d;
+    padding: 16px;
+    color: white;
+    border: 0;
+    font-size: 17px;
+    height: 55px;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+#m-cen {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-color: white;
+}
+
+#m-bef {
+    margin-right: 2px;
+    border: 2px solid white;
+    border-right: 0;
+    border-radius: 5px 0px 0px 5px;
+    -moz-border-radius: 5px 0px 0px 5px;
+    -webkit-border-radius: 5px 0px 0px 5px;
+}
+
+#m-aft{
+    margin-left: 2px;
+    border: 2px solid white;
+    border-left: 0;
+    border-radius: 0px 5px 5px 0px;
+-moz-border-radius: 0px 5px 5px 0px;
+-webkit-border-radius: 0px 5px 5px 0px;
+}
+
+@media(min-width: 640px){
+    .card{
+        float: left;
+        width: 48%;
+        margin: 1%;
+    }
+}
